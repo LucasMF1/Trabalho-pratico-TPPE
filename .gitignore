@@ -1,0 +1,5 @@
+# Classes compiladas pelos scripts do trabalho prático
+/trabalhoPratico/out/
+
+# Dependências locais, conforme libs/LEIAME.txt
+/trabalhoPratico/libs/*.jar
