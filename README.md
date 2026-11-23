@@ -77,6 +77,7 @@ trabalhoPratico/
 | `FecharRodadaTest` | RN-05 a RN-10 |
 | `ImutabilidadeTest` | RN-03, RN-12 |
 | `PersistenciaJdbcTest` | RN-11, RN-12 |
+| `RegressaoLegadoTest` | defeitos do legado corrigidos (ver [SMELLS.md](trabalhoPratico/SMELLS.md)) |
 | `MercadoFake`, `RepositorioMemoria` | dublês usados pela suíte |
 
 ## Processo
