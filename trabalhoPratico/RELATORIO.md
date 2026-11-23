@@ -108,7 +108,7 @@ listas -> Validacoes -> SistemaCompras.agrupar -> lote imutavel
 
 | Integrante | Principais contribuições (commits, testes, partes do código) |
 |---|---|
-| Vitor Valerio Hoffmann | Reescrita do núcleo (`SistemaCompras`, `Cotacao`, `Rateio`, `Fracionador`, `Pedido`, `ResultadoRodada`), persistência JDBC defensiva, `Validacoes`, `Dinheiro`, `LogSeguro`, suíte base de testes e documentação. Commits c6f606e, bcfa95b, 9cad92b, 1eb2356, 46e71f8 e os `test:` iniciais. |
+| Vitor Valerio Hoffmann | Estrutura inicial do projeto e suíte base de testes. |
 | Integrante 2 | Ampliar testes de ataque de RN-01/RN-02; caracterização do tratamento de entrada do legado (commit original 772e660). |
 | Integrante 3 | Casos extras de arredondamento HALF_EVEN e mercados hostis (RN-04/RN-05); revisar e documentar os smells. |
 | Integrante 4 | Testes de fail-over e encerramento (RN-06/RN-08/RN-10), incluindo concorrência em `receberLista`. |

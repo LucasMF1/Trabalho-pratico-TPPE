@@ -89,7 +89,7 @@ A base (núcleo correto e defensivo, suíte inicial e documentação) já está 
 
 | Integrante | Tarefa |
 |---|---|
-| Vitor Valerio Hoffmann | Núcleo completo (`SistemaCompras`, `Cotacao`, `Rateio`, `Fracionador`, `Pedido`, `ResultadoRodada`, `PedidoRepositorioJdbc`, `Validacoes`, `Dinheiro`, `LogSeguro`), suíte base de testes, README e RELATORIO |
+| Vitor Valerio Hoffmann | Estrutura inicial do projeto e suíte base de testes |
 | Integrante 2 | Ampliar testes de ataque de RN-01/RN-02 e caracterizar o tratamento de entrada do legado |
 | Integrante 3 | Casos extras de arredondamento HALF_EVEN e mercados hostis (RN-04/RN-05); documentar os smells |
 | Integrante 4 | Testes de fail-over, encerramento e concorrência (RN-06/RN-08/RN-10) |
