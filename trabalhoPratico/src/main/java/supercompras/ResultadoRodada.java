@@ -1,17 +1,36 @@
 package supercompras;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.List;
 
-public class ResultadoRodada {
-    public String mercadoVencedor;
-    public String protocolo;
-    public BigDecimal totalLote;
-    public List<Pedido> pedidos = new ArrayList<>();
+/** Resultado de uma rodada fechada. Imutavel. */
+public final class ResultadoRodada {
 
-    public String getMercadoVencedor() { return mercadoVencedor; }
-    public String getProtocolo() { return protocolo; }
-    public BigDecimal getTotalLote() { return totalLote; }
-    public List<Pedido> getPedidos() { return pedidos; }
+    private final String mercadoVencedor;
+    private final String protocolo;
+    private final BigDecimal totalLote;
+    private final List<Pedido> pedidos;
+
+    ResultadoRodada(String mercadoVencedor, String protocolo, BigDecimal totalLote, List<Pedido> pedidos) {
+        this.mercadoVencedor = mercadoVencedor;
+        this.protocolo = protocolo;
+        this.totalLote = totalLote;
+        this.pedidos = List.copyOf(pedidos);
+    }
+
+    public String getMercadoVencedor() {
+        return mercadoVencedor;
+    }
+
+    public String getProtocolo() {
+        return protocolo;
+    }
+
+    public BigDecimal getTotalLote() {
+        return totalLote;
+    }
+
+    public List<Pedido> getPedidos() {
+        return pedidos;
+    }
 }
